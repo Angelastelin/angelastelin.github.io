@@ -3213,7 +3213,17 @@
 			.main.style2.inactive.left .content {
 				left: -40%;
 			}
+			.main.style3 .content {
+				width: 90%;
+			}
 
+			.main.style3.right .content {
+				left: 90%;
+			}
+
+			.main.style3.inactive.left .content {
+				left: -40%;
+			}
 	}
 
 /* Normal */
@@ -3251,7 +3261,17 @@
 			.main.style2.inactive.left .content {
 				left: -50%;
 			}
+			.main.style3 .content {
+				width: 90%;
+			}
 
+			.main.style3.right .content {
+				left: 90%;
+			}
+
+			.main.style3.inactive.left .content {
+				left: -50%;
+			}
 	}
 
 /* Narrower */
