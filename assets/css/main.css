@@ -2884,6 +2884,16 @@
 		background-repeat: repeat, no-repeat;
 	}
 
+/* Artist */
+
+	#artist {
+		background: url("images/overlay.png"), url("../../images/artist.jpg");
+		background-size: 256px 256px, cover;
+		background-attachment: fixed, fixed;
+		background-position: top left, bottom center;
+		background-repeat: repeat, no-repeat;
+	}
+
 /* One */
 
 	#one {
