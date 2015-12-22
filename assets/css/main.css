@@ -2729,7 +2729,7 @@
 			transform-origin: 50% 50%;
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: Arial;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2800,7 +2800,7 @@
 
 		.icon:before {
 			display: inline-block;
-			font-family: FontAwesome;
+			font-family: Arial;
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
@@ -3057,7 +3057,7 @@
 				animation: spinner-rotate 0.75s infinite linear !important;
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: Arial;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
