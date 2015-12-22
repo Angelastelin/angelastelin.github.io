@@ -2077,7 +2077,7 @@
 		form input[type="password"]:focus,
 		form select:focus,
 		form textarea:focus {
-			border-color: #ff4040;
+			border-color: #b0b0b0;
 		}
 
 	form input[type="text"],
