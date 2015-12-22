@@ -2154,7 +2154,7 @@
 		-webkit-transition: all 0.2s ease-in-out;
 		-ms-transition: all 0.2s ease-in-out;
 		transition: all 0.2s ease-in-out;
-		background-color: #B0B0B0;
+		background-color: #39454b;
 		border: 0;
 		border-radius: 3.5em;
 		color: #fff;
@@ -2211,7 +2211,7 @@
 		input[type="reset"]:hover,
 		.button:hover,
 		button:hover {
-			background-color: #39454b;
+			background-color: #B0B0B0;
 		}
 
 		input[type="button"]:active,
@@ -2219,7 +2219,7 @@
 		input[type="reset"]:active,
 		.button:active,
 		button:active {
-			background-color: #39454b;
+			background-color: #B0B0B0;
 		}
 
 		input[type="button"].style2,
