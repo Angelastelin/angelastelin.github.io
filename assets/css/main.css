@@ -2988,12 +2988,12 @@
 
 		#footer a {
 			color: #999;
-			color: rgba(185, 186, 187, 0.5);
+			color: rgba(87, 88, 89, 0.5);
 		}
 
 			#footer a:hover {
 				color: #bbb;
-				color: #b9babb;
+				color: #575859;
 			}
 
 		#footer .actions {
