@@ -2107,6 +2107,13 @@
 		border: 0;
 	}
 
+	/* EmailMeForm */
+	#emf_advertisement, 
+	#emf_advertisement font,
+	#emf_advertisement a {
+    	font-family: 'Playfair Display', serif !important;
+	}
+
 /* Table */
 
 	table {
