@@ -1831,6 +1831,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Raleway', sans-serif;
 		font-weight: 900;
 		color: inherit;
 	}
@@ -3435,6 +3436,7 @@
 				top: 0;
 				height: 2.5em;
 				line-height: 2.5em;
+				font-family: 'Raleway', sans-serif;
 			}
 
 				#logo a {
