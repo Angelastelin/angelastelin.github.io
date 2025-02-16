@@ -2841,10 +2841,12 @@
 		height: 3em;
 		line-height: 3em;
 		letter-spacing: -1px;
+		font-family: 'Raleway', sans-serif; 
 	}
 
 		#logo a {
 			font-size: 1.25em;
+			font-family: 'Raleway', sans-serif; 
 		}
 
 	#nav {
@@ -3441,6 +3443,7 @@
 
 				#logo a {
 					font-size: 1em;
+					font-family: 'Raleway', sans-serif; 
 				}
 
 			#nav {
