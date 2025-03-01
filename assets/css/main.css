@@ -1832,7 +1832,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'Raleway', sans-serif;
-		font-weight: 300; 
+		font-weight: 700; 
 		color: inherit;
 	}
 
@@ -2849,6 +2849,7 @@
 		line-height: 3em;
 		letter-spacing: -1px;
 		font-family: 'Raleway', sans-serif; 
+		font-weight: 700;
 	}
 
 		#logo a {
@@ -2883,6 +2884,7 @@
 					padding: 0 0.5em 0 0.5em;
 					outline: 0;
 					font-family: 'Raleway', sans-serif; /* This font is updated to Raleway for the navigation headers */
+					font-weight: 700;
 				}
 
 /* Intro */
