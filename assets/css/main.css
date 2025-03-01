@@ -2266,10 +2266,7 @@
 
 		.box.style2 {
 			padding: 1em 1em 1em 1em;
-			width: 60%;
-    			max-width: 500px;
-    			margin-left: auto; /* This pushes the box to the right */
-    			margin-right: 0;   /* This ensures the right edge aligns with its container */
+			
 		}
 
 		.box.style3 {
