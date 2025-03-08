@@ -2266,6 +2266,9 @@
 
 		.box.style2 {
 			padding: 1em 1em 1em 1em;
+			width: 60%;
+			max-width: 500px;
+			margin: 0 auto;
 			
 		}
 
