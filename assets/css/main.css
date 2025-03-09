@@ -264,6 +264,30 @@
   }
 }
 
+/* Intro box custom sizing for different screen sizes */
+@media screen and (min-width: 1281px) {
+  #intro .content.box.style2 {
+    width: 330px !important;
+    max-width: 95% !important;
+    padding: 1.3em !important;
+  }
+}
+
+/* Make the signature section tighter */
+#intro .content.box.style2 > div {
+  display: flex !important;
+  align-items: center !important;
+  gap: 15px !important;
+  margin-bottom: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Make sure text is left-aligned consistently */
+#intro .content p {
+  text-align: left !important;
+  color: #39454b !important;
+}
+
 /* Grid */
 
 	.row {
