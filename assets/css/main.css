@@ -248,6 +248,22 @@
 
 	}
 
+@media screen and (max-width: 1280px) {
+  #intro .content.box.style2 {
+    width: 380px !important;
+    max-width: 95% !important;
+    padding: 1.3em !important;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #intro .content.box.style2 {
+    width: 360px !important;
+    max-width: 90% !important;
+    padding: 1.3em !important;
+  }
+}
+
 /* Grid */
 
 	.row {
