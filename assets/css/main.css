@@ -297,7 +297,7 @@
     width: 320px !important; /* Match width with artist photo */
     max-width: 95% !important;
     padding: 1.3em !important;
-    transform: translateX(20px) !important; /* Match the transform from artist section */
+    transform: translateX(30px) !important; /* Match the transform from artist section */
     margin-left: auto !important; /* Push to the right */
     margin-right: 0 !important; /* Ensure it aligns from the right */
   }
