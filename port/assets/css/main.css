@@ -2841,10 +2841,13 @@
 		height: 3em;
 		line-height: 3em;
 		letter-spacing: -1px;
+		font-family: 'Raleway', sans-serif; 
+		font-weight: 700;
 	}
 
 		#logo a {
 			font-size: 1.25em;
+			font-family: 'Raleway', sans-serif; 
 		}
 
 	#nav {
@@ -2873,6 +2876,8 @@
 					line-height: 3em;
 					padding: 0 0.5em 0 0.5em;
 					outline: 0;
+					font-family: 'Raleway', sans-serif; 
+    					font-weight: 700;
 				}
 
 /* Intro */
@@ -3436,10 +3441,13 @@
 				top: 0;
 				height: 2.5em;
 				line-height: 2.5em;
+				font-family: 'Raleway', sans-serif;
 			}
 
 				#logo a {
 					font-size: 1em;
+					font-family: 'Raleway', sans-serif; 
+					
 				}
 
 			#nav {
