@@ -267,7 +267,7 @@
 /* Intro box custom sizing for different screen sizes */
 @media screen and (min-width: 1281px) {
   #intro .content.box.style2 {
-    width: 330px !important;
+    width: 420px !important;
     max-width: 95% !important;
     padding: 1.3em !important;
   }
