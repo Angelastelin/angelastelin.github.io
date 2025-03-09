@@ -291,6 +291,18 @@
   color: #39454b !important;
 }
 
+/* For iPad and similar tablet devices */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  #intro .content.box.style2 {
+    width: 320px !important; /* Match width with artist photo */
+    max-width: 95% !important;
+    padding: 1.3em !important;
+    transform: translateX(20px) !important; /* Match the transform from artist section */
+    margin-left: auto !important; /* Push to the right */
+    margin-right: 0 !important; /* Ensure it aligns from the right */
+  }
+}
+
 /* Grid */
 
 	.row {
