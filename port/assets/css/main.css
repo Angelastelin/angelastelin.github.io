@@ -193,7 +193,7 @@
 
 		#intro .content.box.style2 {
     		background-color: rgba(255, 255, 255, 1); /* Fully opaque white */
-		width: 260px !important;
+		width: 220px !important;
 		max-width: 95% !important;
     		padding: 1em !important;
 		 }
@@ -269,7 +269,7 @@
 /* For iPad and similar tablet devices */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #intro .content.box.style2 {
-    width: 320px !important; 
+    width: 300px !important; 
     max-width: 95% !important;
     padding: 1.3em !important;
   }
@@ -294,7 +294,7 @@
 /* Intro box custom sizing for different screen sizes */
 @media screen and (min-width: 1281px) {
   #intro .content.box.style2 {
-    width: 400px !important;
+    width: 380px !important;
     max-width: 95% !important;
     padding: 1.3em !important;
   }
