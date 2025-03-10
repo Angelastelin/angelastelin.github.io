@@ -192,7 +192,7 @@
 	@media screen and (max-width: 736px) {
 		 #intro .content.box.style2 {
     		background-color: rgba(255, 255, 255, 1); /* Fully opaque white */
-		width: 290px !important;
+		width: 280px !important;
 		max-width: 95% !important;
     		padding: 1em !important;
 		 }
