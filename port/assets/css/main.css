@@ -191,6 +191,17 @@
 
 	@media screen and (max-width: 736px) {
 
+		 #intro .content.box.style2 {
+    		background-color: rgba(255, 255, 255, 1); /* Fully opaque white */
+		width: 290px !important;
+		max-width: 95% !important;
+    		padding: 1em !important;
+		 }
+
+		#intro .content p {
+    		text-align: left !important;
+		}
+
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 118.75%;
@@ -289,25 +300,6 @@
   }
 }
 
-@media screen and (max-height: 800px) {
-  #artist .content.box.style2 {
-    margin-top: 60px;  /* Add space at the top */
-    margin-bottom: 60px;  /* Add space at the bottom */
-    height: auto;  /* Allow the box to expand as needed */
-    max-height: 500px;  /* Set a maximum height */
-    overflow: auto;  /* Add scrolling if needed */
-  }
-  
-  #artist .content.box.style2 img {
-    max-height: 400px;  /* Make the image slightly smaller */
-    width: auto;  /* Maintain aspect ratio */
-    height: auto;  /* Maintain aspect ratio */
-  }
-  
-  #artist a.button.down.anchored {
-    bottom: -20px;  /* Adjust button position */
-  }
-}
 
 /* Grid */
 
