@@ -269,7 +269,7 @@
 /* For iPad and similar tablet devices */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   #intro .content.box.style2 {
-    width: 300px !important; 
+    width: 260px !important; 
     max-width: 95% !important;
     padding: 1.3em !important;
   }
