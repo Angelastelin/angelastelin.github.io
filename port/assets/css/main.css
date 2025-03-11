@@ -274,30 +274,37 @@
     padding: 1.3em !important;
   }
 	#header {
-		height: 3.5em;
+		height: 3.8em;
 	}
 
 	#logo {
-		font-size:0.9em;
-		width:40%;
+		font-size:0.85em;
+		width:35%;
 		white-space: nowrap;
 		overflow: hidden;
+		left:0.5em;
 	}
 
 	#nav {
-		right: 0.5em;
+		right: 0.3em;
+		top: 0.2em;
 	}
 
 	#nav ul li {
-		font-size: 0.8em;
-		margin-left:0.4em;
-		margin-bottom: 0.3em;
+		font-size: 0.75em;
+		margin-left:0.3em;
+		padding-bottom: 0.5em;
 	}
 
 	#nav ul {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: flex-end;
+		line-height: 1.5em;
+	}
+
+	#body {
+		padding-top: 3.8em;
 	}
 }
 
