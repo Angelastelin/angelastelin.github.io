@@ -274,9 +274,13 @@
     padding: 1.3em !important;
   }
 
-	 #nav {
-    		display: none !important;
-  		}
+	 #logo {
+        background-color: red !important;
+    }
+    
+    #nav {
+        display: none !important;
+    }
 
 }
 
