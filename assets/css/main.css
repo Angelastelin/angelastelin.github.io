@@ -189,6 +189,7 @@
 
 	}
 
+	/*For phone screens*/
 	@media screen and (max-width: 736px) {
 		 #intro .content.box.style2 {
     		background-color: rgba(255, 255, 255, 1); /* Fully opaque white */
@@ -251,6 +252,7 @@
 
 	}
 
+/* For laptop screens */
 @media screen and (max-width: 1280px) {
   #intro .content.box.style2 {
     width: 320px !important;
@@ -259,6 +261,7 @@
   }
 }
 
+/* For tablets */
 @media screen and (max-width: 1000px) {
   #intro .content.box.style2 {
     width: 320px !important;
@@ -267,6 +270,7 @@
   }
 }
 
+/* For wide-screen monitors*/
 /* Intro box custom sizing for different screen sizes */
 @media screen and (min-width: 1281px) {
   #intro .content.box.style2 {
@@ -297,6 +301,21 @@
     width: 320px !important; 
     max-width: 95% !important;
     padding: 1.3em !important;
+  }
+}
+
+/* For Ipad mini */
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  #nav {
+    display: none !important;
+  }
+
+/* Center the logo when navigation is hidden */
+  #logo {
+    position: relative;
+    text-align: center;
+    left: 0;
+    width: 100%;
   }
 }
 
