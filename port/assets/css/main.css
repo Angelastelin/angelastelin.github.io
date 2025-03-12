@@ -274,9 +274,9 @@
     padding: 1.3em !important;
   }
 
-	#nav {
-		display: none;
-	}
+	 #nav {
+    		display: none !important;
+  		}
 
 }
 
