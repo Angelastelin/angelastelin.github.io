@@ -283,17 +283,12 @@
   }
 }
 
-/* For iPad and similar tablet devices */
 @media screen and (min-width: 768px) {
   #intro .content.box.style2 {
     width: 260px !important; 
     max-width: 95% !important;
     padding: 1.3em !important;
   }
-    
-    	#nav {
-        display: none !important;
-    }
 
 }
 
