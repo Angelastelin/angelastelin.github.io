@@ -227,7 +227,13 @@
 	}
 
 	@media screen and (max-width: 480px) {
-
+		/* For smaller phones */
+		#intro .content.box.style2 {
+    		width: 180px !important;    /* Even smaller for very small screens */
+    		max-width: 75% !important;  /* Ensure it doesn't overflow screen */
+    		padding: 0.8em !important;  /* Slightly smaller padding */
+  		}
+		
 		.container.\31 25\25 {
 			width: 100%;
 			max-width: 118.75%;
