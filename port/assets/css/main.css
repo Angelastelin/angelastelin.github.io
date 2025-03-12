@@ -296,6 +296,14 @@
   #nav {
     display: none !important;
   }
+
+/* Center the logo when navigation is hidden */
+  #logo {
+    position: relative;
+    text-align: center;
+    left: 0;
+    width: 100%;
+  }
 }
 
 
