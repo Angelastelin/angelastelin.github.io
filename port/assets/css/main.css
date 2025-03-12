@@ -290,16 +290,19 @@
     max-width: 95% !important;
     padding: 1.3em !important;
   }
-
-	#logo {
-        background-color: red !important;
-    }
     
     	#nav {
         display: none !important;
     }
 
 }
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  #nav {
+    display: none !important;
+  }
+}
+
 
 /* Intro box custom sizing for different screen sizes */
 @media screen and (min-width: 1281px) {
