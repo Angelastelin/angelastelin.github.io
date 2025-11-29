@@ -10,6 +10,8 @@ There are two versions of the site:
 
 You can switch between them using the language button on the site.
 
+
+
 **Updating the Gallery (English Version)**
 
 All images used in the English gallery live inside the images/ folder.
@@ -23,20 +25,92 @@ Both must be placed in the correct folders.
 
 1. Uploading a Thumbnail
 
-Resize the image to 687px × 432px.
+- Resize the image to 687px × 432px.
+- Upload it to: images/thumbs/
+- Name it consistently with the other images already in that folder: Thumb Algarve
 
-Upload it to:
-images/thumbs/
-
-Name it consistently with the other images already in that folder
-(example: artwork_12.jpg).
 
 2. Uploading the Full-Size Image
 
-Upload the full-resolution version to:
-images/fulls/
+- Upload the full-resolution version to: images/fulls/
+- Use the exact same filename as the thumbnail.
+- 
 
-Use the exact same filename as the thumbnail.
+**Adding the Images to the English Gallery (index.html)**
 
-This pairing is what allows the gallery to show the correct image when clicked.
+Once the new thumbnail and full-size images are uploaded, the next step is to “register” them inside the index.html file so they appear on the page.
+
+1. Open index.html
+
+Inside this file, each artwork is represented by a small block of HTML code.
+These blocks also control:
+
+- which image to display
+- where the full-size image is located
+- the caption that appears on hover
+- the spacing on desktop and mobile (6u 12u(mobile))
+
+You do not need to change any spacing classes unless you want to change the layout.
+
+2. Adding a Row of Two Images
+"
+- If you want to add two artworks side-by-side, copy and paste the following block under the last existing row:
+<br>
+
+<div class="row 20% images">
+    <div class="6u 12u(mobile)">
+        <a href="images/fulls/Ondas Lunares.jpeg" class="image fit from-left">
+            <img src="images/thumbs/Thumb Ondas Lunares.png" title="Ondas Lunares, acrylic on canvas - 2025, 70 x 100 cm" alt=""/>
+        </a>
+    </div>
+
+    <div class="6u 12u(mobile)">
+        <a href="images/fulls/Flash.jpeg" class="image fit from-right">
+            <img src="images/thumbs/Thumb Flash.png" title="Flash, acrylic on canvas - 2025, 80 x 120 cm" alt=""/>
+        </a>
+    </div>
+</div>
+
+"
+Then update the following in both halves of the row:
+
+- the full image path (images/fulls/...)
+- the thumbnail path (images/thumbs/...)
+- the title text inside the title="" attribute (this is your caption)
+
+Everything else can stay the same.
+
+3. Adding a Row with One Image Only
+If you prefer a single artwork centred on the row, use this alternative block:
+
+<!-- This is the code if the row just has one single image -->
+<br>
+<div class="row 20% images">
+    <div class="6u -3u 12u(mobile)">
+        <a href="images/fulls/Genesis II.jpeg" class="image fit from-bottom">
+            <img src="images/thumbs/Thumb Genesis II.png" title="Genesis II, acrylic on canvas - 2023, 120 x 80cm" alt=""/>
+        </a>
+    </div>
+</div>
+
+Again, update:
+
+- images/fulls/...
+- images/thumbs/...
+- the title="" caption
+
+Note: The spacing class 6u -3u is what centres the image on desktop.
+
+4. Save and Refresh
+
+After pasting and editing:
+
+- Save the file
+- Refresh the browser
+- Your new artworks should appear immediately
+
+If nothing shows up, check:
+- filename spelling
+- file extension (.jpeg, .jpg, .png)
+- that both the thumbnail and full-size image exist in the correct folders
 
