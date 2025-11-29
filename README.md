@@ -38,9 +38,9 @@ Once the new thumbnail and full-size images are uploaded, the next step is to �
 
 1. Finding the Image Path
 
-Inside the GitHub file browser, click on your newly uploaded image.
-At the top of the page, GitHub shows the exact path to the file (for example:images/thumbs/Thumb_NewArtwork.png).
-You can copy this path directly, then paste it into the code so you don’t need to type it manually.
+- Inside the GitHub file browser, click on your newly uploaded image.
+- At the top of the page, GitHub shows the exact path to the file (for example:images/thumbs/Thumb_NewArtwork.png).
+- You can copy this path directly, then paste it into the code so you don’t need to type it manually.
 
 2. Open index.html
    
@@ -56,7 +56,6 @@ You do not need to change any spacing classes unless you want to change the layo
 3. Adding a Row of Two Images
 - If you want to add two artworks side-by-side, copy and paste the following block under the last existing row:
   "
-
 <br>
 <div class="row 20% images">
     <div class="6u 12u(mobile)">
@@ -64,7 +63,6 @@ You do not need to change any spacing classes unless you want to change the layo
             <img src="images/thumbs/Thumb Ondas Lunares.png" title="Ondas Lunares, acrylic on canvas - 2025, 70 x 100 cm" alt=""/>
         </a>
     </div>
-
     <div class="6u 12u(mobile)">
         <a href="images/fulls/Flash.jpeg" class="image fit from-right">
             <img src="images/thumbs/Thumb Flash.png" title="Flash, acrylic on canvas - 2025, 80 x 120 cm" alt=""/>
