@@ -30,6 +30,14 @@ Both must be placed in the correct folders.
 - Use the exact same filename as the thumbnail.
 - Name it consistently with the other images already in that folder: Algarve
 
+Deleting a File (e.g., wrong upload)
+
+- If you’ve uploaded the wrong image:
+- Click on the file in GitHub.
+- On the top right, click the three-dot menu (⋮).
+- Scroll to the bottom and choose Delete file.
+- Commit your changes.
+  
 <br>
 
 **Adding the Images to the English Gallery (index.html)**
