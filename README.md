@@ -30,6 +30,8 @@ Both must be placed in the correct folders.
 - Use the exact same filename as the thumbnail.
 - Name it consistently with the other images already in that folder: Algarve
 
+<br>
+
 **Adding the Images to the English Gallery (index.html)**
 
 Once the new thumbnail and full-size images are uploaded, the next step is to “register” them inside the index.html file so they appear on the page.
@@ -40,7 +42,7 @@ Inside the GitHub file browser, click on your newly uploaded image.
 At the top of the page, GitHub shows the exact path to the file (for example:images/thumbs/Thumb_NewArtwork.png).
 You can copy this path directly, then paste it into the code so you don’t need to type it manually.
 
-3. Open index.html
+2. Open index.html
 Inside this file, each artwork is represented by a small block of HTML code.
 These blocks also control:
 - which image to display
