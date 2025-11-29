@@ -56,7 +56,8 @@ You do not need to change any spacing classes unless you want to change the layo
 3. Adding a Row of Two Images
 - If you want to add two artworks side-by-side, copy and paste the following block under the last existing row:
 
-"<br>
+```html
+<br>
 <div class="row 20% images">
     <div class="6u 12u(mobile)">
         <a href="images/fulls/painting-name.jpeg" class="image fit from-left">
@@ -68,7 +69,8 @@ You do not need to change any spacing classes unless you want to change the layo
             <img src="images/thumbs/Thumb painting-name.png" title="Flash, acrylic on canvas - 2025, 80 x 120 cm" alt=""/>
         </a>
     </div>
-</div>"
+</div>
+```
 
 Then update the following in both halves of the row:
 - the full image path (images/fulls/...)
@@ -79,7 +81,8 @@ Everything else can stay the same.
 
 4. Adding a Row with One Image Only
 If you prefer a single artwork centred on the row, use this alternative block:
-"<!-- This is the code if the row just has one single image -->
+```html
+<!-- This is the code if the row just has one single image -->
 <br>
 <div class="row 20% images">
     <div class="6u -3u 12u(mobile)">
@@ -87,7 +90,8 @@ If you prefer a single artwork centred on the row, use this alternative block:
             <img src="images/thumbs/Thumb Genesis II.png" title="Genesis II, acrylic on canvas - 2023, 120 x 80cm" alt=""/>
         </a>
     </div>
-</div>"
+</div>
+```
 
 Again, update:
 - images/fulls/...
