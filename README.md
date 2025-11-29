@@ -35,10 +35,9 @@ Both must be placed in the correct folders.
 Once the new thumbnail and full-size images are uploaded, the next step is to “register” them inside the index.html file so they appear on the page.
 
 1. Finding the Image Path
-Inside the GitHub file browser, click on your newly uploaded image.
-At the top of the page, GitHub shows the exact path to the file (for example:
-images/thumbs/Thumb_NewArtwork.png).
 
+Inside the GitHub file browser, click on your newly uploaded image.
+At the top of the page, GitHub shows the exact path to the file (for example:images/thumbs/Thumb_NewArtwork.png).
 You can copy this path directly, then paste it into the code so you don’t need to type it manually.
 
 3. Open index.html
