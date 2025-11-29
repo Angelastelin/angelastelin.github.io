@@ -110,7 +110,8 @@ Note: The spacing class 6u -3u is what centres the image on desktop.
 
 5. Save and Refresh
 After pasting and editing:
-- Save the file
+- Click Commit changes on the top right
+- Allow GitHub to run its checks
 - Refresh the browser
 - Your new artworks should appear immediately
 
@@ -119,3 +120,53 @@ If nothing shows up, check:
 - file extension (.jpeg, .jpg, .png)
 - that both the thumbnail and full-size image exist in the correct folders
 
+
+**Updating the Portuguese Version**
+
+The Portuguese version of the website lives inside the port/ folder.
+Everything you need for that page — the HTML file and the images — is located inside this folder.
+
+1. Where to find the Portuguese files
+
+From the repository’s main page:
+Click on the folder named port
+Inside it, you will see:
+- port.html (the Portuguese page)
+- An images folder containing:
+- thumbs/ — thumbnails
+- fulls/ — full-size images
+
+2. Uploading Portuguese gallery images
+The steps are similar to the English version but take place inside the port/ directory.
+
+Upload the Thumbnail
+- Make sure to resize the image to 687px × 432px.
+- Upload it to: port/images/thumbs/
+- Use the same naming format as your other thumbnails.
+
+Upload the Full-Size Image
+- Upload the full-resolution version to: port/images/fulls/
+- Use the exact same filename as the thumbnail.
+
+3. Getting the correct file path
+
+To avoid mistakes, after uploading an image you can click on that file and copy the file path shown at the top of the page.
+This ensures your <img src="..."> and <a href="..."> paths are 100% correct.
+
+4. Updating port.html
+Once the images are uploaded:
+- Open port/port.html
+- Scroll to the gallery section
+- Copy the appropriate code block (either the 2-image row or the 1-image row)
+- Replace the href="..." and src="..." file paths with your new image filenames
+- Update the title="..." text if you want to change or add the caption
+
+Note: The code blocks must be wrapped in triple backticks in the README to avoid being rendered as images.
+
+5. Saving Your Changes
+When finished:
+- Click Commit changes
+- Allow GitHub to run its checks
+- Refresh the live website after a few seconds — the updated images should appear.
+
+If anything doesn’t look right, or you’re unsure where something is located, feel free to contact me anytime.
