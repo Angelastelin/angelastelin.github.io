@@ -24,6 +24,7 @@ Both must be placed in the correct folders.
 - Upload it to: images/thumbs/
 - Name it consistently with the other images already in that folder: Thumb Algarve
 
+Note: 687×432 is the current thumbnail size used across the gallery. You can change this to a different size if you prefer, but you would need to resize all existing thumbnails so the layout stays consistent. Thumbnails must be resized using your own software (e.g., Preview, Photoshop, Paint, Canva, or any image editor). GitHub cannot resize images for you.
 
 2. Uploading the Full-Size Image
 - Upload the full-resolution version to: images/fulls/
