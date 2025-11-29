@@ -151,7 +151,7 @@ Upload the Full-Size Image
 3. Getting the correct file path
 
 To avoid mistakes, after uploading an image you can click on that file and copy the file path shown at the top of the page.
-This ensures your ```html <img src="...">``` and ```html <a href="...">``` paths are 100% correct.
+This ensures your ``` <img src="...">``` and ``` <a href="...">``` paths are 100% correct.
 
 4. Updating port.html
 Once the images are uploaded:
