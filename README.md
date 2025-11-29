@@ -138,6 +138,7 @@ Inside it, you will see:
 - fulls/ — full-size images
 
 2. Uploading Portuguese gallery images
+
 The steps are similar to the English version but take place inside the port/ directory.
 
 Upload the Thumbnail
@@ -155,6 +156,7 @@ To avoid mistakes, after uploading an image you can click on that file and copy 
 This ensures your ``` <img src="...">``` and ``` <a href="...">``` paths are 100% correct.
 
 4. Updating port.html
+
 Once the images are uploaded:
 - Open port/port.html
 - Scroll to the gallery section
