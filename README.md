@@ -60,13 +60,13 @@ You do not need to change any spacing classes unless you want to change the layo
 <br>
 <div class="row 20% images">
     <div class="6u 12u(mobile)">
-        <a href="images/fulls/painting-name.jpeg" class="image fit from-left">
-            <img src="images/thumbs/Thumb painting-name.png" title="Ondas Lunares, acrylic on canvas - 2025, 70 x 100 cm" alt=""/>
+        <a href="images/fulls/Ondas Lunares.jpeg" class="image fit from-left">
+            <img src="images/thumbs/Thumb Ondas Lunares.png" title="Ondas Lunares, acrylic on canvas - 2025, 70 x 100 cm" alt=""/>
         </a>
     </div>
     <div class="6u 12u(mobile)">
-        <a href="images/fulls/painting-name.jpeg" class="image fit from-right">
-            <img src="images/thumbs/Thumb painting-name.png" title="Flash, acrylic on canvas - 2025, 80 x 120 cm" alt=""/>
+        <a href="images/fulls/Flash.jpeg" class="image fit from-right">
+            <img src="images/thumbs/Thumb Flash.png" title="Flash, acrylic on canvas - 2025, 80 x 120 cm" alt=""/>
         </a>
     </div>
 </div>
