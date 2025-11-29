@@ -43,6 +43,7 @@ At the top of the page, GitHub shows the exact path to the file (for example:ima
 You can copy this path directly, then paste it into the code so you don’t need to type it manually.
 
 2. Open index.html
+   
 Inside this file, each artwork is represented by a small block of HTML code.
 These blocks also control:
 - which image to display
@@ -55,7 +56,7 @@ You do not need to change any spacing classes unless you want to change the layo
 3. Adding a Row of Two Images
 - If you want to add two artworks side-by-side, copy and paste the following block under the last existing row:
   "
-  
+
 <br>
 <div class="row 20% images">
     <div class="6u 12u(mobile)">
